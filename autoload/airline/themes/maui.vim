@@ -47,6 +47,14 @@ function! airline#themes#maui#refresh()
   let g:airline#themes#maui#palette.inactive_modified = {
         \ 'airline_c': s:I1
         \ }
+  let g:airline_mode_map = {
+        \ 'n'  : 'ν',
+        \ 'i'  : 'λ',
+        \ 'R'  : 'Φ',
+        \ 'v'  : 'δ',
+        \ 'V'  : 'Σ',
+        \ '' : '∆',
+        \ }
 endfunction
 
 call airline#themes#maui#refresh()
