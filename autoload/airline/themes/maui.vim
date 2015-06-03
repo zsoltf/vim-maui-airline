@@ -9,7 +9,7 @@ function! airline#themes#maui#refresh()
         \ }
 
   let s:N1 = airline#themes#get_highlight2(['DbgCurrent', 'bg'], ['Function', 'fg'], 'bold')
-  let s:N2 = airline#themes#get_highlight2(['Number', 'fg'], ['DbgCurrent', 'bg'])
+  let s:N2 = airline#themes#get_highlight2(['Delimiter', 'fg'], ['DbgCurrent', 'bg'])
   let s:N3 = airline#themes#get_highlight('NonText')
 
   let g:airline#themes#maui#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
@@ -18,7 +18,7 @@ function! airline#themes#maui#refresh()
         \ 'airline_c': s:Nmod
         \ }
 
-  let s:I1 = airline#themes#get_highlight2(['Number', 'bg'], ['String', 'fg'], 'bold')
+  let s:I1 = airline#themes#get_highlight2(['Deimiter', 'bg'], ['String', 'fg'], 'bold')
   let s:I2 = airline#themes#get_highlight2(['String', 'fg'], ['DbgCurrent', 'bg'])
   let s:I3 = s:N3
   let g:airline#themes#maui#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
