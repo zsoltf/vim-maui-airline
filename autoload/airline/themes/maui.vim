@@ -8,7 +8,7 @@ function! airline#themes#maui#refresh()
         \ 'red': airline#themes#get_highlight('ErrorMsg'),
         \ }
 
-  let s:N1 = [ '#00005f', '#dfff00', 233, 67 ]
+  let s:N1 = [ '#00005f', '#dfff00', 233, 67]
   let s:N2 = [ '#00005f', '#dfff00', 67, 235 ]
   let s:N3 = airline#themes#get_highlight('NonText')
 
@@ -23,7 +23,7 @@ function! airline#themes#maui#refresh()
   let s:I3 = s:N3
   let g:airline#themes#maui#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
   let g:airline#themes#maui#palette.normal_modified = {
-        \ 'airline_c': [ '#ffffff' , '#5f005f' , 233, 166 ]
+        \ 'airline_c': [ '#ffffff' , '#5f005f' , 233, 106 ]
         \ }
   let g:airline#themes#maui#palette.insert_modified = g:airline#themes#maui#palette.normal_modified
 
