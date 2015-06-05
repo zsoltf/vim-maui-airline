@@ -55,6 +55,9 @@ function! airline#themes#maui#refresh()
         \ 'V'  : 'Σ',
         \ '' : '∆',
         \ }
+
+  let g:airline_section_x = airline#section#create(['ffenc'])
+  let g:airline_section_y = airline#section#create(['tagbar'])
 endfunction
 
 call airline#themes#maui#refresh()
