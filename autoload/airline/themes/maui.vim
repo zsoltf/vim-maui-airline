@@ -23,7 +23,7 @@ function! airline#themes#maui#refresh()
   let s:I3 = s:N3
   let g:airline#themes#maui#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
   let g:airline#themes#maui#palette.normal_modified = {
-        \ 'airline_c': [ '#ffffff' , '#5f005f' , 233, 166 ]
+        \ 'airline_c': [ '#ffffff' , '#5f005f' , 233, 67 ]
         \ }
   let g:airline#themes#maui#palette.insert_modified = g:airline#themes#maui#palette.normal_modified
 
