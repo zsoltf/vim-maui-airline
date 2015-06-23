@@ -19,7 +19,7 @@ function! airline#themes#maui#refresh()
         \ }
 
   let s:I1 = airline#themes#get_highlight2(['DbgCurrent', 'bg'], ['Statement', 'fg'], 'bold')
-  let s:I2 = [ '#00005f', '#dfff00', 67, 235 ]
+  let s:I2 = [ '#00005f', '#dfff00', 166, 235 ]
   let s:I3 = s:N3
   let g:airline#themes#maui#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
   let g:airline#themes#maui#palette.normal_modified = {
